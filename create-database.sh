@@ -1,5 +1,12 @@
 #!/bin/bash
 
+sudo yum install python3-pip -y
+pip install flask
+pip install mysql-connector-python
+pip install -q -U google-generativeai
+pip install boto3 werkzeug
+sudo yum install -y mariadb105
+
 # RDS connection details
 DB_HOST="database-1.cu1u8whw5lym.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
 DB_USER="admin"           # Your RDS admin username
