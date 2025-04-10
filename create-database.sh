@@ -8,7 +8,7 @@ pip install boto3 werkzeug
 sudo yum install -y mariadb105
 
 # RDS connection details
-DB_HOST="database-1.clg02psjcdbl.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
+DB_HOST="database-1.cu1u8whw5lym.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
 DB_USER="admin"           # Your RDS admin username
 DB_PASSWORD="Kbv7EBX~f))$)GW"       # Your RDS password
 SQL_COMMANDS=$(cat <<EOF
